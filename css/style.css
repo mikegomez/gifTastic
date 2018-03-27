@@ -1,0 +1,19 @@
+div {
+    margin: 5px, 5px, 5px, 5px;
+}
+
+form {
+    float: right;
+    margin-top: 10px;
+}
+
+
+body {
+    background-color: lightblue;
+}
+
+#animalButtons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
