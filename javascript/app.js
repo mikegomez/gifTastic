@@ -4,19 +4,20 @@
 
 function displayAnimals() {
 
-  var movie = $(this).attr("data-name");
+  var animals = $(this).attr("data-name");
 
  // var animale = $(this).data("search");
-	console.log(movie);
+	console.log(animals);
 
-var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=SBzhBxvgH7inWPrdoGNS4WihIsYD81pD&q=" + movie + "&limit=10&offset=0&rating=G&lang=en";
+var queryURL =
+"https://api.giphy.com/v1/gifs/search?api_key=SBzhBxvgH7inWPrdoGNS4WihIsYD81pD&q=birds&limit=10&offset=0&rating=G&lang=en";
 
 
 console.log(queryURL);
 
 // Performing an AJAX request with the queryURL
 $.ajax({
-url: queryURL,
+url: queryURL, 
 method: "GET"
 })
 
@@ -101,7 +102,6 @@ displayButtons();
 
     $(document).on("click", displayAnimals);
 
-    //Click event on gifs with class of "netflixGiphy" executes pausePlayGifs function
     $(document).on("click", pauseGifs);
 
     function pauseGifs() {
