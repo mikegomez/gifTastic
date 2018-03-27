@@ -48,7 +48,7 @@ method: "GET"
     var showImage = $("<img>");
     var p = $("<p>").text("Rating: " + rating);
 
-    showImage.attr("src", staticSrc);
+    showImage.attr("src", defaultAnimatedSrc);
     showImage.addClass("animalClass");
     showImage.attr("data-state", "still");
     showImage.attr("data-still", staticSrc);
