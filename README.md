@@ -7,3 +7,4 @@ The program uses a combination of html, css, and js. With the majority of work c
 The program is meant to be user interactive and also when working properly will have a stop/start function, so when you click on an image the gif will be animate and when you click it again it will pause.
 
 
+https://mikegomez.github.io/gifTastic/
